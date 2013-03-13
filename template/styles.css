@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family: 'Headland One', serif;
+}
+
+a,a:visited{
+	color:rgba(120,120,120,1);
+	text-decoration:underline;
+
+}
+
+a:hover{
+	text-decoration:none;
+
+}
+
+header,section{
+	width:93%;
+	min-width:1000px;
+	padding: 0 3.5%;
+}
+
+header{ 
+	height:470px;
+	background-color:rgba(255,255,255,0.8);
+}
+
+#headerlinks{
+	font-size:11px;
+	text-align:center;
+}
+
+header h2{
+	color:rgba(210,210,210,1);
+}
+
+
+.centering{
+	width:1000px;
+	margin:0px auto;
+}
+
+section{
+	border-top:dotted #999 1px;
+}
+
+.left,.right{
+	float:left;
+	width:490px;
+	display:block;
+	margin:0px;
+}
+
+.right{
+	padding-left:20px;
+
+}
+
+
+
+header h1{
+	margin-bottom:0px;
+	font-weight:normal;
+}
+
+header h2{
+	margin:0 0 20px;
+	padding:0 0 0 3px;
+	font-size:smaller;
+	font-weight:normal;
+}
+
+
+
+section .centering{
+	position:relative;
+}
+
+section h1{
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    display: block;
+	text-align:right;
+	width:300px;
+	position:absolute;
+	top:135px;
+	left:-180px;
+	margin:0;
+	color:#CCC;
+	font-weight:normal;
+}
+
+section h2{
+	width:100%;
+	display:block;
+	margin-top:0px;
+	font-weight:normal;
+	clear:both;
+	line-height:1em;
+}
+
+
+section .left,section .right{
+	margin-bottom:20px;
+}
+
+section small{
+	font-size:10px;
+	width:100%;
+}
+
+#socialbox{
+	text-align:center;
+	clear:both;
+	width:100%;
+}
+
+.fb_iframe_widget{
+	vertical-align:top;
+}
+
+.attention{
+	color:rgb(100,100,100);
+}
+
+.meditation{
+	color:rgb(255,100,100);
+}
+
+.delta{
+	color:rgb(100,0,0);
+}
+
+.theta{
+	color:rgb(0,100,0);
+}
+
+.lowAlpha{
+	color:rgb(0,0,100);
+}
+
+.highAlpha{
+	color:rgb(50,50,0);
+}
+
+.lowBeta{
+	color:rgb(0,50,50);
+}
+
+.highBeta{
+	color:rgb(50,0,50);
+}
+
+.lowGamma{
+	color:rgb(33,33,33);
+}
+
+.highGamma{
+	color:rgb(20,20,60);
+}
+
+
+
