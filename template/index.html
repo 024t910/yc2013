@@ -21,9 +21,10 @@
   })();
 
 $(document).ready(function(){
-	$.getScript("js/main.js", function(data, textStatus, jqxhr) {});
-	$.load("main.html #mainarea section");
-	setInterval('$("#mainarea").load("main.html #mainarea section")',300000);
+	$("#mainarea").load("main.html #mainarea section",function(){
+		$.getScript("js/main.js", function(data, textStatus, jqxhr) {});
+	});
+	setInterval('$("#mainarea").load("main.html #mainarea section",function(){$.getScript("js/main.js", function(data, textStatus, jqxhr) {});});',300000);
 });
 
 	function drawGraph(canvas_id,data){
